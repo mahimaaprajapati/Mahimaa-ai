@@ -1,0 +1,470 @@
+/* ===========================
+   Google Font
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ===========================
+   Root
+=========================== */
+
+:root{
+    --bg:#1e1e1e;
+    --sidebar:#252526;
+    --activity:#181818;
+    --editor:#1e1e1e;
+    --terminal:#181818;
+    --status:#007acc;
+
+    --border:#333333;
+
+    --text:#d4d4d4;
+    --text-light:#ffffff;
+    --text-muted:#8b8b8b;
+
+    --accent:#7c5cff;
+    --hover:#2a2d2e;
+
+    --green:#4ec9b0;
+    --blue:#569cd6;
+    --yellow:#dcdcaa;
+    --orange:#ce9178;
+}
+
+/* ===========================
+   Reset
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    font-family:"Inter",sans-serif;
+}
+
+/* ===========================
+   Workspace
+=========================== */
+
+#developer-workspace{
+
+    display:grid;
+
+    grid-template-columns:
+        60px
+        260px
+        1fr;
+
+    grid-template-rows:
+        calc(100vh - 28px);
+
+}
+
+/* ===========================
+   Activity Bar
+=========================== */
+
+#activity-bar{
+
+    background:var(--activity);
+
+    border-right:1px solid var(--border);
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 0;
+}
+
+.activity-top,
+.activity-bottom{
+
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.activity-btn{
+
+    width:42px;
+    height:42px;
+
+    border:none;
+    outline:none;
+
+    background:none;
+
+    color:var(--text-muted);
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    border-radius:8px;
+
+    transition:.25s;
+}
+
+.activity-btn:hover{
+
+    background:var(--hover);
+
+    color:white;
+}
+
+.activity-btn.active{
+
+    background:rgba(124,92,255,.18);
+
+    color:var(--accent);
+}
+
+/* ===========================
+   Explorer
+=========================== */
+
+#explorer{
+
+    background:var(--sidebar);
+
+    border-right:1px solid var(--border);
+
+    display:flex;
+    flex-direction:column;
+}
+
+.panel-title{
+
+    padding:18px;
+
+    font-size:12px;
+
+    letter-spacing:2px;
+
+    color:var(--text-muted);
+}
+
+.folder-name{
+
+    padding:0 18px 15px;
+
+    font-weight:600;
+
+    color:white;
+}
+
+#file-list{
+
+    list-style:none;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.file{
+
+    padding:12px 18px;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+    font-size:14px;
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.file:hover{
+
+    background:var(--hover);
+}
+
+.file.active{
+
+    background:#37373d;
+
+    border-left:3px solid var(--accent);
+}
+
+/* ===========================
+   Workspace
+=========================== */
+
+#workspace{
+
+    display:flex;
+    flex-direction:column;
+
+    background:var(--editor);
+
+}
+
+/* ===========================
+   Tabs
+=========================== */
+
+#tabs{
+
+    height:42px;
+
+    background:#252526;
+
+    display:flex;
+
+    border-bottom:1px solid var(--border);
+}
+
+.tab{
+
+    padding:0 22px;
+
+    display:flex;
+    align-items:center;
+
+    background:#2d2d2d;
+
+    border-right:1px solid var(--border);
+
+    cursor:pointer;
+
+    font-size:14px;
+}
+
+.tab.active{
+
+    background:var(--editor);
+
+    color:white;
+}
+
+/* ===========================
+   Editor
+=========================== */
+
+#editor{
+
+    flex:1;
+
+    overflow:auto;
+
+    padding:30px 40px;
+
+}
+
+#editor-content{
+
+    max-width:900px;
+
+    margin:0;
+
+    font-family:"JetBrains Mono", monospace;
+font-size:16px;
+    line-height:1.8;
+}
+
+/* Scrollbar */
+
+#editor::-webkit-scrollbar{
+
+    width:10px;
+}
+
+#editor::-webkit-scrollbar-thumb{
+
+    background:#555;
+}
+
+/* ===========================
+   Terminal
+=========================== */
+
+#terminal{
+
+    height:220px;
+
+    background:var(--terminal);
+
+    border-top:1px solid var(--border);
+
+    display:flex;
+    flex-direction:column;
+}
+
+#terminal-header{
+
+    padding:10px 18px;
+
+    border-bottom:1px solid var(--border);
+
+    font-size:13px;
+
+    color:var(--text-muted);
+}
+
+#terminal-output{
+
+    flex:1;
+
+    overflow:auto;
+
+    padding:15px 20px;
+
+    font-family:"JetBrains Mono",monospace;
+
+    font-size:14px;
+
+    line-height:1.7;
+}
+
+.highlight{
+
+    color:var(--accent);
+}
+
+#terminal-input{
+
+    display:flex;
+    align-items:center;
+
+    padding:12px 20px;
+
+    border-top:1px solid var(--border);
+
+    font-family:"JetBrains Mono",monospace;
+}
+
+.prompt{
+
+    color:var(--green);
+
+    margin-right:10px;
+}
+
+#terminal-command{
+
+    flex:1;
+
+    border:none;
+    outline:none;
+
+    background:none;
+
+    color:white;
+
+    font-family:"JetBrains Mono",monospace;
+
+    font-size:14px;
+}
+
+#terminal-command::placeholder{
+
+    color:#666;
+}
+
+/* ===========================
+   Status Bar
+=========================== */
+
+#status-bar{
+
+    height:28px;
+
+    background:var(--status);
+
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 18px;
+
+    font-size:12px;
+}
+
+.status-left,
+.status-right{
+
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+/* ===========================
+   Syntax Highlighting
+=========================== */
+
+.key{
+
+    color:var(--blue);
+}
+
+.string{
+
+    color:var(--orange);
+}
+
+.number{
+
+    color:var(--green);
+}
+
+.boolean{
+
+    color:#c586c0;
+}
+
+.null{
+
+    color:#c586c0;
+}
+
+/* ===========================
+   Animations
+=========================== */
+
+.file,
+.tab,
+.activity-btn,
+#terminal{
+
+    transition:all .25s ease;
+}
+
+#workspace{
+
+    animation:fadeIn .6s ease;
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(10px);
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+    }
+}

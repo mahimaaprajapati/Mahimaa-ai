@@ -1,0 +1,332 @@
+import * as THREE from "three";
+
+import { renderer, scene, camera } from "./three/scene";
+
+import { loadAvatar } from "./three/avatar";
+
+import {
+
+    initializeMixer,
+
+    loadAnimation,
+
+    play,
+
+    update
+
+} from "./three/animation";
+
+
+// ===========================================
+// CLOCK
+// ===========================================
+
+const clock = new THREE.Clock();
+
+
+// ===========================================
+// INITIALIZE
+// ===========================================
+
+async function initializeMahimaaAI() {
+
+    try {
+
+        console.log("Loading Avatar...");
+
+        const avatar = await loadAvatar();
+
+        console.log("Avatar Loaded");
+
+        initializeMixer(avatar);
+
+        console.log("Loading Animations...");
+
+        await loadAnimation(
+
+            "idle",
+
+            "/animations/idle.fbx"
+
+        );
+
+        await loadAnimation(
+
+            "wave",
+
+            "/animations/wave.fbx"
+
+        );
+
+        await loadAnimation(
+
+            "thinking",
+
+            "/animations/thinking.fbx"
+
+        );
+
+        await loadAnimation(
+
+            "talking",
+
+            "/animations/talking.fbx"
+
+        );
+
+        console.log("Animations Loaded");
+
+        // Start with idle
+
+        play("idle");
+
+        // Wave after entering
+
+        setTimeout(() => {
+
+            play("wave");
+
+        }, 800);
+
+        // Back to idle
+
+        setTimeout(() => {
+
+            play("idle");
+
+        }, 3200);
+
+        animate();
+
+    }
+
+    catch (error) {
+
+        console.error(error);
+
+    }
+
+}
+
+
+// ===========================================
+// RENDER LOOP
+// ===========================================
+
+function animate() {
+
+    requestAnimationFrame(animate);
+
+    const delta = clock.getDelta();
+
+    update(delta);
+
+    renderer.render(
+
+        scene,
+
+        camera
+
+    );
+
+}
+
+
+// ===========================================
+// RESIZE
+// ===========================================
+
+window.addEventListener(
+
+    "resize",
+
+    () => {
+
+        camera.aspect =
+
+            window.innerWidth /
+
+            window.innerHeight;
+
+        camera.updateProjectionMatrix();
+
+        renderer.setSize(
+
+            window.innerWidth,
+
+            window.innerHeight
+
+        );
+
+    }
+
+);
+
+
+// ===========================================
+// CHAT PLACEHOLDERS
+// ===========================================
+
+const input = document.getElementById(
+
+    "userInput"
+
+) as HTMLInputElement;
+
+const sendButton = document.getElementById(
+
+    "sendButton"
+
+) as HTMLButtonElement;
+
+const chatWindow = document.getElementById(
+
+    "chatWindow"
+
+) as HTMLDivElement;
+
+
+function addMessage(
+
+    text: string,
+
+    sender: "user" | "ai"
+
+) {
+
+    const div = document.createElement("div");
+
+    div.className =
+
+        sender === "user"
+
+            ? "user-message"
+
+            : "ai-message";
+
+    div.innerHTML = text;
+
+    chatWindow.appendChild(div);
+
+    chatWindow.scrollTop =
+
+        chatWindow.scrollHeight;
+
+}
+
+document
+
+.querySelectorAll(".quick-question")
+
+.forEach(button => {
+
+    button.addEventListener(
+
+        "click",
+
+        () => {
+
+            input.value =
+
+                button.textContent || "";
+
+            sendMessage();
+
+        }
+
+    );
+
+});
+const BACKEND_URL = "http://127.0.0.1:5000/chat";
+
+async function sendMessage() {
+
+    const message = input.value.trim();
+
+    if (!message) return;
+
+    // Show user's message
+    addMessage(message, "user");
+
+    input.value = "";
+
+    // Play Thinking Animation
+    play("thinking");
+
+    try {
+
+        const response = await fetch(BACKEND_URL, {
+
+            method: "POST",
+
+            headers: {
+
+                "Content-Type": "application/json"
+
+            },
+
+            body: JSON.stringify({
+
+                message: message
+
+            })
+
+        });
+
+        const data = await response.json();
+
+        // Talking animation
+        play("talking");
+
+        addMessage(data.response, "ai");
+
+        // Back to Idle
+        setTimeout(() => {
+
+            play("idle");
+
+        }, 500);
+
+    }
+
+    catch (error) {
+
+        console.error(error);
+
+        addMessage(
+
+            "Looks like my backend is sleeping 😅",
+
+            "ai"
+
+        );
+
+        play("idle");
+
+    }
+
+}
+
+
+input.addEventListener(
+    "keydown",
+
+    (e) => {
+
+        if (e.key === "Enter") {
+
+    sendMessage();
+
+}
+
+        }
+
+
+);
+
+
+// ===========================================
+// START
+// ===========================================
+
+initializeMahimaaAI();

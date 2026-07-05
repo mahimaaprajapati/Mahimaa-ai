@@ -1,0 +1,165 @@
+{
+  "achievements": [
+
+    {
+      "id":"achievement_001",
+
+      "title":"Hacknovate 5.0",
+
+      "year":2024,
+
+      "result":"1st Runner-Up",
+
+      "project":"Sharanyu",
+
+      "category":"Hackathon",
+
+      "description":"An Emergency Response Support System developed by an all-girls team during our second semester.",
+
+      "impact":"Our first ever technical achievement and first prize money of ₹5,000.",
+
+      "lesson":"This experience taught me that showing up matters. Even without guidance, consistent hard work and belief in ourselves were enough to compete and win.",
+
+      "personal_note":"It was the first moment where I truly believed that opportunities are created through preparation rather than luck."
+    },
+
+    {
+      "id":"achievement_002",
+
+      "title":"Ideathon 5.0",
+
+      "year":2024,
+
+      "result":"Winner",
+
+      "project":"PlaceMe",
+
+      "category":"Innovation",
+
+      "description":"Won the institute-wide innovation competition with PlaceMe, a comprehensive placement management platform.",
+
+      "impact":"The victory opened internship opportunities and validated our ability to build complete software products.",
+
+      "lesson":"A great prototype only becomes impactful when presented with confidence. Technical skills and communication are equally important.",
+
+      "personal_note":"This project became my first large-scale full-stack system and changed how I approached software development."
+    },
+
+    {
+      "id":"achievement_003",
+
+      "title":"Hacknovate 6.0",
+
+      "year":2025,
+
+      "result":"Top 10",
+
+      "project":"MineGuard",
+
+      "category":"Hackathon",
+
+      "description":"MineGuard was shortlisted among the Top 10 teams.",
+
+      "challenge":"The project was accidentally lost on the morning of the hackathon, forcing us to rebuild under extreme time pressure.",
+
+      "lesson":"Sometimes the hardest part is simply starting again. Progress creates its own momentum.",
+
+      "personal_note":"This experience strengthened my belief that resilience often matters more than perfect preparation."
+    },
+
+    {
+      "id":"achievement_004",
+
+      "title":"Smart India Hackathon 2025",
+
+      "year":2025,
+
+      "result":"Grand Finale",
+
+      "project":"VyomBot",
+
+      "category":"National Innovation Competition",
+
+      "description":"Led an all-girls team to the Smart India Hackathon Grand Finale with an ISRO problem statement on autonomous lunar habitat robotics.",
+
+      "highlights":[
+
+
+        "Built an autonomous robotics framework from scratch in an unfamiliar domain.",
+
+        "Presented before ISRO scientists.",
+
+        "Personally invited by ISRO evaluators to visit the centre after the event.",
+
+        "Received encouragement and appreciation directly from the evaluation panel."
+
+      ],
+
+      "challenge":"Learning ROS2, SLAM, Gazebo, autonomous navigation and robotics from scratch within a limited timeline while managing setbacks, technical failures and intense pressure.",
+
+      "lesson":"Winning isn't always reflected by a trophy. Sometimes success is measured by the respect you earn from the people you admire.",
+
+      "personal_note":"This remains the defining experience of my engineering journey. Although we didn't win the competition, it completely changed my confidence as an engineer."
+    },
+
+    {
+      "id":"achievement_005",
+
+      "title":"IEEE SPACE Conference 2026",
+
+      "year":2026,
+
+      "result":"Paper Accepted",
+
+      "project":"A Unified Habitat-Integrated Autonomous Rover Framework for Structured Lunar Surface Operations",
+
+      "category":"Research",
+
+      "status":"Accepted for Presentation",
+
+      "publication_status":"Not Published",
+
+      "description":"Research paper accepted for presentation at IEEE SPACE Conference 2026.",
+
+      "challenge":"The paper was written without institutional references or prior publication experience, while maintaining originality and zero plagiarism.",
+
+      "lesson":"Good engineering work can speak for itself. Strong ideas and careful execution matter more than reputation.",
+
+      "personal_note":"Receiving the acceptance email was one of the happiest moments of my academic journey and gave me confidence to continue pursuing research."
+    }
+
+  ],
+
+  "core_beliefs":[
+
+    {
+      "title":"Hard Work Over Luck",
+
+      "description":"Throughout my journey I've noticed that opportunities come after consistent effort. I don't rely on luck—I rely on preparation."
+    },
+
+    {
+      "title":"Comfort Zones Don't Build Engineers",
+
+      "description":"Every meaningful project I've built started with technologies I didn't know."
+    },
+
+    {
+      "title":"Leadership Means Responsibility",
+
+      "description":"I enjoy leading teams where every member's opinion is respected and everyone gets ownership of the work."
+    },
+
+    {
+      "title":"Representation Matters",
+
+      "description":"Leading all-girls technical teams has shown me that capability is independent of stereotypes. I want more women to confidently lead engineering projects."
+    },
+{
+"title":"The ISRO Ice Cream",
+
+"story":"After SIH ended, one of the ISRO scientists personally invited us to visit the centre. He spent time with us, encouraged us, shared stories from his own journey, and even treated us to ice cream. I didn't return with a winner's trophy, but I returned with something that shaped me far more—belief that respected engineers saw potential in us."
+}
+  ]
+  
+}

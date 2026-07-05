@@ -1,0 +1,537 @@
+/* ==========================================
+   Google Fonts
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap');
+
+/* ==========================================
+   Root
+========================================== */
+
+:root{
+
+    --bg:#050816;
+    --panel:#101827;
+    --glass:rgba(255,255,255,.05);
+
+    --primary:#8B5CF6;
+    --secondary:#60A5FA;
+    --cyan:#22D3EE;
+
+    --text:#F8FAFC;
+    --muted:#94A3B8;
+
+    --border:rgba(255,255,255,.08);
+
+}
+
+/* ==========================================
+   Reset
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+
+    width:100%;
+    height:100%;
+
+    overflow:hidden;
+
+    font-family:"Inter",sans-serif;
+
+    background:radial-gradient(circle at center,#0d1430 0%,#050816 70%);
+
+    color:white;
+
+}
+
+/* ==========================================
+   Universe
+========================================== */
+
+#learning-universe{
+
+    position:relative;
+
+    width:100vw;
+    height:100vh;
+
+    overflow:hidden;
+
+}
+
+/* ==========================================
+   Stars
+========================================== */
+
+#stars{
+
+    position:absolute;
+    inset:0;
+
+    background-image:
+
+        radial-gradient(white 1px,transparent 1px),
+        radial-gradient(white 1px,transparent 1px);
+
+    background-size:120px 120px,180px 180px;
+
+    background-position:0 0,80px 80px;
+
+    opacity:.18;
+
+    animation:starsMove 120s linear infinite;
+
+}
+
+@keyframes starsMove{
+
+    from{
+
+        transform:translateY(0);
+
+    }
+
+    to{
+
+        transform:translateY(-120px);
+
+    }
+
+}
+
+/* ==========================================
+   Glow
+========================================== */
+
+#universe-glow{
+
+    position:absolute;
+
+    width:700px;
+    height:700px;
+
+    left:50%;
+    top:50%;
+
+    transform:translate(-50%,-50%);
+
+    background:radial-gradient(circle,
+
+        rgba(139,92,246,.28),
+
+        transparent 70%
+
+    );
+
+    filter:blur(70px);
+
+    animation:pulse 6s ease-in-out infinite;
+
+}
+
+@keyframes pulse{
+
+    0%,100%{
+
+        transform:translate(-50%,-50%) scale(1);
+
+    }
+
+    50%{
+
+        transform:translate(-50%,-50%) scale(1.08);
+
+    }
+
+}
+
+/* ==========================================
+   Center
+========================================== */
+
+#core{
+
+    position:absolute;
+
+    left:50%;
+    top:50%;
+
+    transform:translate(-50%,-50%);
+
+    text-align:center;
+
+    z-index:5;
+
+}
+
+#core-orb{
+
+    width:120px;
+    height:120px;
+
+    border-radius:50%;
+
+    margin:auto;
+
+    background:radial-gradient(circle,
+
+    #a78bfa,
+
+    #4f46e5);
+
+    box-shadow:
+
+        0 0 80px rgba(139,92,246,.8),
+
+        0 0 150px rgba(96,165,250,.25);
+
+    animation:orbFloat 5s ease-in-out infinite;
+
+}
+
+@keyframes orbFloat{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+}
+
+#core h1{
+
+    margin-top:25px;
+
+    font-family:"Space Grotesk",sans-serif;
+
+    font-size:44px;
+
+    font-weight:700;
+
+}
+
+#core p{
+
+    margin-top:15px;
+
+    color:var(--muted);
+
+    max-width:420px;
+
+    line-height:1.7;
+
+}
+
+/* ==========================================
+   Learning Map
+========================================== */
+
+#learning-map{
+
+    position:absolute;
+
+    inset:0;
+
+}
+
+/* ==========================================
+   Nodes
+========================================== */
+
+.node{
+
+    position:absolute;
+
+    padding:14px 24px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:var(--glass);
+
+    backdrop-filter:blur(20px);
+
+    color:white;
+
+    cursor:pointer;
+
+    border:1px solid var(--border);
+
+    transition:.35s;
+
+    font-size:15px;
+
+    z-index:20;
+}
+
+
+.node:hover{
+
+    transform:scale(1.08);
+
+    background:rgba(139,92,246,.15);
+
+    border-color:rgba(139,92,246,.5);
+
+    box-shadow:0 0 30px rgba(139,92,246,.4);
+
+}
+
+/* Manual Positions */
+
+.node:nth-child(1){
+
+    left:18%;
+    top:20%;
+
+}
+
+.node:nth-child(2){
+
+    left:68%;
+    top:18%;
+
+}
+
+.node:nth-child(3){
+
+    left:78%;
+    top:40%;
+
+}
+
+.node:nth-child(4){
+
+    left:67%;
+    top:68%;
+
+}
+
+.node:nth-child(5){
+
+    left:18%;
+    top:70%;
+
+}
+
+.node:nth-child(6){
+
+    left:8%;
+    top:45%;
+
+}
+
+.node:nth-child(7){
+
+    left:36%;
+    top:82%;
+
+}
+
+.node:nth-child(8){
+
+    left:45%;
+    top:10%;
+
+}
+
+/* ==========================================
+   Panel
+========================================== */
+
+#info-panel{
+
+    position:absolute;
+
+    right:0;
+    top:0;
+
+    width:430px;
+    height:100%;
+
+    background:rgba(10,15,30,.92);
+
+    backdrop-filter:blur(30px);
+
+    border-left:1px solid var(--border);
+
+    transform:translateX(100%);
+
+    transition:.45s;
+
+    padding:35px;
+
+    z-index:10;
+
+}
+
+#info-panel.open{
+
+    transform:translateX(0);
+
+}
+
+#panel-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+#panel-title{
+
+    font-size:28px;
+
+    font-family:"Space Grotesk";
+
+}
+
+#close-panel{
+
+    background:none;
+
+    border:none;
+
+    color:white;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+}
+
+#panel-content{
+
+    color:var(--muted);
+
+    line-height:1.9;
+
+    font-size:16px;
+
+}
+
+/* ==========================================
+   Back Button
+========================================== */
+
+#back-button{
+
+    position:absolute;
+
+    left:40px;
+    top:40px;
+
+    border:none;
+
+    background:rgba(255,255,255,.08);
+
+    color:white;
+
+    padding:14px 22px;
+
+    border-radius:40px;
+
+    cursor:pointer;
+
+    backdrop-filter:blur(20px);
+
+    transition:.3s;
+
+}
+
+#back-button:hover{
+
+    background:rgba(139,92,246,.18);
+
+    transform:translateX(-4px);
+
+}
+#core{
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+#core-subtitle {
+
+    transition: all .3s ease;
+
+}
+#core:hover #core-orb{
+
+    transform:scale(1.1);
+
+    box-shadow:
+        0 0 100px rgba(139,92,246,.9),
+        0 0 180px rgba(96,165,250,.4);
+
+}
+
+#core:hover h1{
+
+    color:#ffffff;
+
+}
+
+#core:hover p{
+
+    color:#c7d2fe;
+
+}
+/* ==========================================
+   Floating Animation
+========================================== */
+
+.node{
+
+    animation:float 6s ease-in-out infinite;
+
+}
+
+.node:nth-child(even){
+
+    animation-duration:8s;
+
+}
+#universe-glow{
+    pointer-events:none;
+}
+#stars{
+    pointer-events:none;
+}
+@keyframes float{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+}

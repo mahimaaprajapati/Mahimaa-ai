@@ -1,0 +1,185 @@
+{
+  "experience": {
+
+    "overall_summary": {
+      "title": "Project-Based Engineering Experience",
+
+      "description": "Although I have not yet worked as a full-time software engineer, my experience comes from building ambitious, end-to-end engineering projects, participating in national hackathons, conducting research and continuously learning through hands-on development."
+    },
+
+    "domains": [
+
+      {
+        "domain": "Artificial Intelligence",
+
+        "experience": "Designed machine learning solutions for hazard prediction, recommendation systems and conversational AI.",
+
+        "projects": [
+          "MineGuard",
+          "MahimaaAI",
+          "Moodscape Lounge"
+        ]
+      },
+
+      {
+        "domain": "Robotics",
+
+        "experience": "Built autonomous robotic systems using ROS2, SLAM, Gazebo and Nav2 for lunar habitat exploration.",
+
+        "projects": [
+          "VyomBot"
+        ]
+      },
+
+      {
+        "domain": "Full Stack Development",
+
+        "experience": "Developed complete software systems including frontend, backend, authentication, dashboards and databases.",
+
+        "projects": [
+          "PlaceMe",
+          "Portfolio",
+          "MineGuard"
+        ]
+      },
+
+      {
+        "domain": "Research",
+
+        "experience": "Worked on autonomous lunar robotics research accepted for IEEE SPACE Conference 2026.",
+
+        "projects": [
+          "VyomBot Research"
+        ]
+      },
+
+      {
+        "domain": "Geospatial AI",
+
+        "experience": "Integrated satellite imagery, terrain models, GIS tools and machine learning for mining hazard prediction.",
+
+        "projects": [
+          "MineGuard"
+        ]
+      }
+
+    ],
+
+    "leadership": {
+
+      "experience": "Led multiple all-girls engineering teams across hackathons and national innovation competitions.",
+
+      "responsibilities": [
+
+        "Project planning",
+
+        "Technology selection",
+
+        "Task distribution",
+
+        "Presentation",
+
+        "Research",
+
+        "Prototype development"
+
+      ]
+
+    },
+
+    "teamwork": {
+
+      "experience": "Worked in multidisciplinary teams under strict deadlines while learning completely new technologies."
+
+    },
+
+    "problem_solving": {
+
+      "experience": "Most projects required solving unfamiliar problems instead of following tutorials.",
+
+      "examples": [
+
+        "Learning ROS2 from scratch for SIH",
+
+        "Building datasets manually for MineGuard",
+
+        "Designing AI architecture for MahimaaAI",
+
+        "Creating immersive portfolio interactions"
+
+      ]
+
+    },
+
+    "public_speaking": {
+
+      "experience": [
+
+        "Presented before ISRO scientists.",
+
+        "Hackathon demonstrations.",
+
+        "Technical presentations.",
+
+        "Research paper presentation preparation."
+
+      ]
+
+    },
+
+    "technical_growth": {
+
+      "starting_point": "Basic programming.",
+
+      "today": "Able to independently learn unfamiliar technologies and combine them into complete engineering solutions."
+
+    }
+
+  },
+
+  "experience_highlights": [
+
+    "7+ major engineering projects",
+
+    "National Hackathon Finalist",
+
+    "IEEE Research Acceptance",
+
+    "AI + Robotics + GIS + Full Stack experience",
+
+    "Leadership experience",
+
+    "Research experience",
+
+    "Product development experience"
+
+  ],
+
+  "work_ethic": {
+
+    "strengths": [
+
+      "Persistent",
+
+      "Curious",
+
+      "Self learner",
+
+      "Comfortable learning unfamiliar technologies",
+
+      "Feature-driven builder",
+
+      "Long-term thinker"
+
+    ],
+
+    "areas_for_growth": [
+
+      "Sometimes I spend too much time polishing ideas before considering them complete.",
+
+      "Learning to balance ambition with delivery speed."
+
+    ]
+
+  }
+}

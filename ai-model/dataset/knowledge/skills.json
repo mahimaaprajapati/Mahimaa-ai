@@ -1,0 +1,328 @@
+{
+  "skills": {
+
+    "programming_languages": [
+
+      {
+        "name": "Python",
+
+        "proficiency": "Advanced",
+
+        "used_in": [
+          "VyomBot",
+          "MineGuard",
+          "Whispers of Universe",
+          "MahimaaAI"
+        ],
+
+        "experience": "Primary programming language used for AI, machine learning, robotics, automation and backend development."
+      },
+
+      {
+        "name": "C++",
+
+        "proficiency": "Intermediate",
+
+        "used_in": [
+          "Competitive Programming",
+          "Data Structures"
+        ],
+
+        "experience": "Used for DSA practice and problem solving."
+      },
+
+      {
+        "name": "JavaScript",
+
+        "proficiency": "Intermediate",
+
+        "used_in": [
+          "Portfolio",
+          "PlaceMe"
+        ],
+
+        "experience": "Used for frontend interaction and web application development."
+      },
+
+      {
+        "name": "TypeScript",
+
+        "proficiency": "Beginner",
+
+        "used_in": [
+          "Portfolio"
+        ],
+
+        "experience": "Currently exploring while building modern frontend applications."
+      },
+
+      {
+        "name": "MongoDB",
+
+        "proficiency": "Intermediate",
+
+        "used_in": [
+          "PlaceMe"
+        ],
+
+        "experience": "Database querying and relational database management."
+      }
+
+    ],
+
+    "artificial_intelligence": [
+
+      {
+        "name": "Machine Learning",
+
+        "experience": "Designed classification models, performed feature engineering and model evaluation.",
+
+        "used_in": [
+          "MineGuard"
+        ]
+      },
+
+      {
+        "name": "TensorFlow",
+
+        "experience": "Built and evaluated machine learning models.",
+
+        "used_in": [
+          "MineGuard"
+        ]
+      },
+
+      {
+        "name": "Computer Vision",
+
+        "experience": "Worked with object detection and perception pipelines using YOLO.",
+
+        "used_in": [
+          "VyomBot"
+        ]
+      },
+
+      {
+        "name": "Large Language Models",
+
+        "experience": "Currently building MahimaaAI using structured datasets and retrieval-based architecture.",
+
+        "used_in": [
+          "MahimaaAI"
+        ]
+      },
+
+      {
+        "name": "Retrieval-Augmented Generation",
+
+        "experience": "Designing knowledge and personality datasets for a digital twin AI assistant.",
+
+        "used_in": [
+          "MahimaaAI"
+        ]
+      }
+
+    ],
+
+    "robotics": [
+
+      {
+        "name": "ROS2",
+
+        "experience": "Built modular robotic systems using ROS2.",
+
+        "used_in": [
+          "VyomBot"
+        ]
+      },
+
+      {
+        "name": "SLAM",
+
+        "experience": "Implemented mapping and localization using RTAB-Map.",
+
+        "used_in": [
+          "VyomBot"
+        ]
+      },
+
+      {
+        "name": "Nav2",
+
+        "experience": "Configured autonomous navigation stack for waypoint navigation.",
+
+        "used_in": [
+          "VyomBot"
+        ]
+      },
+
+      {
+        "name": "Gazebo",
+
+        "experience": "Robot simulation and testing.",
+
+        "used_in": [
+          "VyomBot"
+        ]
+      },
+
+      {
+        "name": "RViz",
+
+        "experience": "Robot visualization and debugging.",
+
+        "used_in": [
+          "VyomBot"
+        ]
+      },
+
+      {
+        "name": "URDF",
+
+        "experience": "Robot modeling and description.",
+
+        "used_in": [
+          "VyomBot"
+        ]
+      }
+
+    ],
+
+    "geospatial_ai": [
+
+      {
+        "name": "Google Earth Engine",
+
+        "experience": "Satellite imagery processing and environmental analysis.",
+
+        "used_in": [
+          "MineGuard"
+        ]
+      },
+
+      {
+        "name": "QGIS",
+
+        "experience": "Spatial analysis and geospatial visualization.",
+
+        "used_in": [
+          "MineGuard"
+        ]
+      },
+
+      {
+        "name": "Leaflet",
+
+        "experience": "Interactive GIS dashboards and maps.",
+
+        "used_in": [
+          "MineGuard"
+        ]
+      },
+
+      {
+        "name": "InSAR",
+
+        "experience": "Ground displacement analysis.",
+
+        "used_in": [
+          "MineGuard"
+        ]
+      },
+
+      {
+        "name": "DEM / DSM",
+
+        "experience": "Terrain modelling for hazard prediction.",
+
+        "used_in": [
+          "MineGuard"
+        ]
+      }
+
+    ],
+
+    "web_development": [
+
+      {
+        "name": "React",
+
+        "experience": "Frontend development for dashboards and modern web applications.",
+
+        "used_in": [
+          "PlaceMe",
+          "MineGuard",
+          "Portfolio"
+        ]
+      },
+
+      {
+        "name": "Flask",
+
+        "experience": "Backend APIs and AI model integration.",
+
+        "used_in": [
+          "MineGuard"
+        ]
+      },
+
+      {
+        "name": "Streamlit",
+
+        "experience": "Rapid AI application development.",
+
+        "used_in": [
+          "Whispers of Universe"
+        ]
+      }
+
+    ],
+
+    "tools": [
+
+      "Git",
+
+      "GitHub",
+
+      "Linux",
+
+      "Blender",
+
+      "Fusion360",
+
+      "VS Code",
+
+      "Eclipse",
+
+      "Postman"
+    ]
+
+  },
+
+  "learning_now": [
+
+    "Large Language Models",
+
+    "RAG Systems",
+
+    "AI Agents",
+
+    "Advanced System Design",
+
+    "Advanced DSA"
+
+
+  ],
+
+  "developer_profile": {
+
+    "strongest_area": "Building end-to-end AI systems by combining machine learning, robotics, geospatial technologies and full-stack development.",
+
+    "learning_style": "Prefers learning through ambitious real-world projects instead of isolated tutorials.",
+
+    "strength": "Quickly adapts to unfamiliar technologies whenever a project demands them.",
+
+    "growth_area": "Working on improving software architecture, system design and algorithmic problem solving while continuing to deepen AI and robotics expertise."
+  }
+
+}

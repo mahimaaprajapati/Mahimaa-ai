@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MahimaaAI</title>
+
+    <link rel="stylesheet" href="mahimaaAI.css">
+
+</head>
+
+<body>
+
+    <!-- ==========================================
+         Background
+    =========================================== -->
+
+    <div class="space-bg"></div>
+
+    <div class="stars"></div>
+
+    <div class="gradient-glow"></div>
+
+
+
+    <!-- ==========================================
+         AI Scene
+    =========================================== -->
+
+    <main class="scene">
+
+        <!-- Avatar Side -->
+
+        <section class="avatar-section">
+
+            <div id="avatarCanvas">
+
+                <!-- Three.js Canvas goes here -->
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Right Panel -->
+
+        <section class="chat-panel">
+
+            <p class="tag">
+
+                DIGITAL TWIN ONLINE
+
+            </p>
+
+            <h1>
+
+                Hi, I'm <span>MahimaaAI.</span>
+
+            </h1>
+
+            <p class="subtitle">
+
+                Ask me about my projects, failures, research, ambitions,
+                robotics, AI... or simply start a conversation.
+
+            </p>
+
+
+
+            <!-- Suggested Questions -->
+
+            <div class="suggestions">
+
+                <button class="quick-question">
+
+🚀 Tell me about VyomBot
+
+</button>
+               <button class="quick-question">
+
+                    ⛏ Tell me about MineGuard
+
+                </button>
+
+                <button class="quick-question">
+
+                    🌙 What skills do u have?
+
+                </button>
+
+                <button class="quick-question">
+
+                    📄 IEEE Research Paper
+
+                </button>
+
+            </div>
+
+
+
+            <!-- Chat Window -->
+
+            <div class="chat-window" id="chatWindow">
+
+            </div>
+
+
+
+            <!-- Input -->
+
+            <div class="chat-input">
+
+                <input
+
+                    id="userInput"
+
+                    type="text"
+
+                    placeholder="Ask me anything..."
+
+                >
+
+                <button id="micButton">
+
+                    🎤
+
+                </button>
+
+                <button id="sendButton">
+
+                    ➜
+
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+    <!-- ==========================================
+         Scripts
+    =========================================== -->
+
+    <script type="module" src="mahimaaAI.ts"></script>
+
+</body>
+
+</html>

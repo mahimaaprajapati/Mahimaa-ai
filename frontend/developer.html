@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Workspace | Mahimaa</title>
+
+    <link rel="stylesheet" href="/src/developer/developer.css" />
+    <link
+rel="stylesheet"
+href="https://unpkg.com/lucide-static/font/lucide.css">
+</head>
+<body>
+
+    <div id="developer-workspace">
+
+        <!-- ========================= -->
+        <!-- Activity Bar -->
+        <!-- ========================= -->
+        <aside id="activity-bar">
+
+            <div class="activity-top">
+
+                <button class="activity-btn active" title="Explorer">
+                    📁
+                </button>
+
+                <button class="activity-btn" title="Search">
+                    🔍
+                </button>
+
+                <button class="activity-btn" title="Git">
+                    🌿
+                </button>
+
+                <button class="activity-btn" title="AI">
+                    🤖
+                </button>
+
+            </div>
+
+            <div class="activity-bottom">
+
+                <button class="activity-btn" id="home-btn" title="Back">
+                    🏠
+                </button>
+
+            </div>
+
+        </aside>
+
+        <!-- ========================= -->
+        <!-- Explorer -->
+        <!-- ========================= -->
+        <aside id="explorer">
+
+            <div class="panel-title">
+                EXPLORER
+            </div>
+
+            <div class="folder-name">
+
+                📂 portfolio
+
+            </div>
+
+            <ul id="file-list">
+
+                <li class="file active" data-file="about">
+                    📄 about.json
+                </li>
+
+                <li class="file" data-file="projects">
+                    📄 projects.json
+                </li>
+
+                <li class="file" data-file="skills">
+                    📄 skills.json
+                </li>
+
+                <li class="file" data-file="research">
+                    📄 research.json
+                </li>
+
+                <li class="file" data-file="timeline">
+                    📄 timeline.json
+                </li>
+
+                <li class="file" data-file="achievements">
+                    📄 achievements.json
+                </li>
+
+                <li class="file" data-file="experience">
+                    📄 experience.json
+                </li>
+
+            </ul>
+
+        </aside>
+
+        <!-- ========================= -->
+        <!-- Main Workspace -->
+        <!-- ========================= -->
+        <main id="workspace">
+
+            <!-- Tabs -->
+            <div id="tabs">
+
+                <div class="tab active">
+                    about.json
+                    <span class="close-tab">×</span>
+                </div>
+
+            </div>
+
+            <!-- Editor -->
+            <section id="editor">
+
+                <pre id="editor-content">
+Loading workspace...
+                </pre>
+
+            </section>
+
+            <!-- Terminal -->
+            <section id="terminal">
+
+                <div id="terminal-header">
+
+                    TERMINAL
+
+                </div>
+
+                <div id="terminal-output">
+
+                    <div>
+                        Welcome to Mahimaa's Developer Workspace.
+                    </div>
+
+                    <div>
+                        Type <span class="highlight">help</span> to see available commands.
+                    </div>
+
+                </div>
+
+                <div id="terminal-input">
+
+                    <span class="prompt">&gt;</span>
+
+                    <input
+                        type="text"
+                        id="terminal-command"
+                        autocomplete="off"
+                        spellcheck="false"
+                        placeholder="Enter command..."
+                    />
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- Status Bar -->
+    <!-- ========================= -->
+
+    <footer id="status-bar">
+
+        <div class="status-left">
+
+            <span>🌿 main</span>
+
+            <span>TypeScript</span>
+
+            <span>UTF-8</span>
+
+        </div>
+
+        <div class="status-right">
+
+            <span id="clock"></span>
+
+        </div>
+
+    </footer>
+
+    <script type="module" src="/src/developer/developer.ts"></script>
+
+</body>
+</html>

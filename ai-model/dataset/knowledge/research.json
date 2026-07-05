@@ -1,0 +1,104 @@
+{
+  "research": [
+    {
+      "id": "research_001",
+
+      "title": "A Unified Habitat-Integrated Autonomous Rover Framework for Structured Lunar Surface Operations",
+
+      "status": "Accepted for Presentation",
+
+      "publication_status": "Not Published",
+
+      "conference": {
+        "name": "IEEE SPACE Conference 2026",
+        "year": 2026,
+        "type": "International Conference"
+      },
+
+      "authors": [
+        "Mahimaa Prajapati"
+      ],
+
+      "role": "Co-Author",
+
+      "associated_project": "VyomBot (LunaBot)",
+
+      "research_domain": [
+        "Space Robotics",
+        "Autonomous Systems",
+        "ROS2",
+        "Lunar Exploration",
+        "SLAM",
+        "Navigation"
+      ],
+
+      "problem_statement": "Future lunar missions are shifting from short-duration exploration to long-term human habitation. Such environments require intelligent robotic assistants capable of autonomous navigation, monitoring and routine operational support inside GPS-denied lunar habitats.",
+
+      "objective": "To design an integrated autonomous rover framework capable of assisting astronauts through mapping, navigation, environmental monitoring and structured patrol tasks within simulated lunar habitats.",
+
+      "abstract_summary": "The proposed framework combines LiDAR-based SLAM, probabilistic localization, waypoint navigation, environmental monitoring and supervisory autonomy using a modular ROS2 architecture to support sustained lunar habitat operations.",
+
+      "system_components": [
+        "LiDAR-based RTAB-Map SLAM",
+        "Nav2 Navigation Stack",
+        "Waypoint Patrol System",
+        "Autonomous Goal Navigation",
+        "YOLO-based Perception",
+        "Environmental Monitoring",
+        "Modular ROS2 Architecture"
+      ],
+
+      "technologies": [
+        "ROS2",
+        "Python",
+        "Gazebo",
+        "RViz",
+        "RTAB-Map",
+        "Nav2",
+        "URDF",
+        "Fusion360",
+        "Blender",
+        "Linux"
+      ],
+
+      "research_contribution": [
+        "Designed an integrated rover framework for lunar habitat support.",
+        "Combined multiple autonomous robotic subsystems into a unified architecture.",
+        "Validated system integration using a simulated multi-zone lunar habitat."
+      ],
+
+      "key_learning": [
+        "Robotics research requires strong system integration.",
+        "Building research prototypes involves significantly more experimentation than traditional software projects.",
+        "Simulation plays a crucial role before deploying autonomous systems."
+      ],
+
+      "personal_significance": "This research represents one of the most transformative learning experiences in my engineering journey. Despite coming from a Computer Science background with no prior robotics experience, our all-girls team successfully built an autonomous rover framework that was evaluated by an ISRO panel during the Smart India Hackathon Grand Finale. The project challenged me technically, emotionally and mentally, making it the work I am most proud of.",
+
+      "future_scope": [
+        "Real-world hardware deployment",
+        "Multi-rover collaboration",
+        "Human-robot interaction",
+        "Autonomous habitat maintenance",
+        "Advanced perception using multimodal sensors"
+      ]
+    }
+  ],
+
+  "research_interests": [
+    "Artificial Intelligence",
+    "Robotics",
+    "Space Robotics",
+    "Computer Vision",
+    "Autonomous Navigation",
+    "Large Language Models",
+    "Human-Robot Interaction",
+    "Geospatial AI"
+  ],
+
+
+  "research_philosophy": {
+    "belief": "Research should solve meaningful engineering problems rather than exist only as publications.",
+    "approach": "I enjoy transforming ambitious ideas into working prototypes and learning unfamiliar technologies whenever required."
+  }
+}

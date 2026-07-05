@@ -1,0 +1,8 @@
+FROM mistral:7b
+
+# Add metadata (optional but good practice)
+PARAMETER num_epochs 3
+PARAMETER batch_size 2
+PARAMETER learning_rate 0.0001
+
+# (Note: no 'lora_training true' here)

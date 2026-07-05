@@ -1,0 +1,279 @@
+{
+  "projects": [
+    {
+      "id": "project_001",
+
+      "name": "VyomBot (LunaBot)",
+
+      "year": 2025,
+
+      "category": [
+        "Robotics",
+        "Autonomous Navigation",
+        "Space Robotics",
+        "ROS2"
+      ],
+
+      "status": "Completed",
+
+      "description": "An autonomous lunar habitat rover designed to assist astronauts inside structured lunar habitats by performing navigation, patrol, mapping and environmental monitoring tasks.",
+
+      "problem_statement": "Future lunar missions require intelligent robotic assistants capable of navigating GPS-denied habitats while reducing astronaut workload.",
+
+      "motivation": "This project pushed me completely out of my comfort zone. As an all-girls Computer Science team, none of us had prior experience in robotics. We had to learn ROS2, SLAM, Gazebo, autonomous navigation and robot simulation from scratch. It challenged me technically and mentally, but ultimately became the project I'm most proud of.",
+
+      "tech_stack": {
+        "languages": [
+          "Python"
+        ],
+
+        "robotics": [
+          "ROS2",
+          "Nav2",
+          "RTAB-Map",
+          "SLAM",
+          "RViz",
+          "Gazebo",
+          "URDF",
+          "A* Path Planning"
+        ],
+
+        "design": [
+          "Fusion360",
+          "Blender"
+        ],
+
+        "platform": [
+          "Linux"
+        ]
+      },
+
+      "features": [
+        "Autonomous navigation",
+        "SLAM based mapping",
+        "Goal-directed movement",
+        "Waypoint patrol",
+        "Environment monitoring",
+        "YOLO based perception",
+        "Astronaut workload reduction"
+      ],
+
+      "achievements": [
+        "Presented at Smart India Hackathon Grand Finale",
+        "Evaluated by an ISRO panel",
+        "Research work extended into IEEE SPACE 2026 accepted paper"
+      ],
+
+      "lessons_learned": [
+        "Robotics is best learned through building.",
+        "Complex engineering projects require patience and collaboration.",
+        "Stepping outside your comfort zone often leads to the greatest growth."
+      ],
+
+      "favorite": true
+    },
+
+    {
+      "id": "project_002",
+
+      "name": "MineGuard",
+
+      "year": 2025,
+
+      "category": [
+        "Artificial Intelligence",
+        "GIS",
+        "Disaster Prediction"
+      ],
+
+      "description": "An AI-powered geospatial mining hazard prediction platform capable of estimating rockfall risks using satellite imagery, terrain information and environmental parameters.",
+
+      "problem_statement": "Mining accidents often occur because risk prediction is reactive instead of proactive. MineGuard aims to predict hazardous zones before accidents happen.",
+
+      "motivation": "One of the biggest challenges was the lack of a ready-made dataset. We had to study the domain, collect data from multiple sources and engineer meaningful features before training any model.",
+
+      "tech_stack": {
+        "frontend": [
+          "React",
+          "Leaflet"
+        ],
+
+        "backend": [
+          "Flask"
+        ],
+
+        "machine_learning": [
+          "TensorFlow",
+          "Classification Models",
+          "Feature Engineering"
+        ],
+
+        "gis": [
+          "Google Earth Engine",
+          "QGIS",
+          "DEM",
+          "DSM",
+          "InSAR"
+        ]
+      },
+
+      "features": [
+        "Mining hazard prediction",
+        "Geospatial visualization",
+        "Interactive risk maps",
+        "Geofencing",
+        "Probability forecasting",
+        "SMS and Email alerts",
+        "Doctor consultation support",
+        "ERSS integration"
+      ],
+
+      "lessons_learned": [
+        "Building datasets can be harder than building models.",
+        "Understanding the domain is as important as writing code.",
+        "AI projects depend heavily on data quality."
+      ]
+    },
+
+    {
+      "id": "project_003",
+
+      "name": "PlaceMe",
+
+      "year": 2024,
+
+      "category": [
+        "Full Stack Development"
+      ],
+
+      "description": "A placement management platform connecting students, placement officers and recruiters while streamlining the campus recruitment process.",
+
+      "motivation": "This was my first large-scale full-stack application and the project that introduced me to building complete software systems instead of isolated features.",
+
+      "features": [
+        "Student database",
+        "Resume builder",
+        "Application tracking",
+        "Company CRM",
+        "Online assessments",
+        "AI chatbot",
+        "Placement scheduling"
+      ],
+
+      "achievement": "Won Ideathon and opened an internship opportunity.",
+
+      "lessons_learned": [
+        "Planning software architecture matters.",
+        "Good UI is as important as backend logic.",
+        "Building scalable systems requires thinking beyond individual pages."
+      ]
+    },
+
+    {
+      "id": "project_004",
+
+      "name": "Whispers of Universe",
+
+      "category": [
+        "AI",
+        "Well-being"
+      ],
+
+      "description": "An AI-powered reflection platform inspired by Indian scriptures and philosophical teachings, designed to provide thoughtful guidance during emotionally difficult moments.",
+
+      "motivation": "This project wasn't created for a competition or resume. I simply wanted to build something meaningful that could genuinely comfort people.",
+
+      "tech_stack": [
+        "Python",
+        "Streamlit"
+      ],
+
+      "lessons_learned": [
+        "Technology can also be emotionally meaningful.",
+        "Not every project needs to solve an industrial problem."
+      ]
+    },
+
+    {
+      "id": "project_005",
+
+      "name": "Moodscape Lounge",
+
+      "category": [
+        "Music Recommendation"
+      ],
+
+      "description": "A mood-aware application that recommends playlists based on a user's emotional state.",
+
+      "motivation": "Built to explore how software can personalize experiences using emotion-aware interactions.",
+
+      "features": [
+        "Mood detection",
+        "Playlist recommendation"
+      ]
+    },
+
+    {
+      "id": "project_006",
+
+      "name": "Mahimaa Portfolio",
+
+      "category": [
+        "Portfolio",
+        "Creative Development"
+      ],
+
+      "description": "A story-driven interactive portfolio that allows visitors to explore different versions of me through Recruiter, Developer, Learner and Beyond the Resume modes.",
+
+      "motivation": "I wanted people to remember not just my projects but the person behind them. Every interaction, animation and transition was designed to tell a story rather than simply display information.",
+
+      "special_features": [
+        "Multiple interactive modes",
+        "3D avatars",
+        "Story-driven navigation",
+        "Immersive UI",
+        "MahimaaAI integration"
+      ],
+
+      "lessons_learned": [
+        "Creativity and engineering can coexist.",
+        "User experience leaves a stronger impression than visual effects alone."
+      ]
+    },
+
+    {
+      "id": "project_007",
+
+      "name": "MahimaaAI",
+
+      "category": [
+        "Generative AI",
+        "Digital Twin",
+        "LLM"
+      ],
+
+      "description": "A digital twin designed to represent my personality, engineering journey and technical knowledge through natural conversations.",
+
+      "motivation": "Initially it started as a fun idea—'What if my portfolio could answer questions for me?' Over time it evolved into a project about creating an AI that genuinely reflects how I think rather than simply reading my resume.",
+
+      "features": [
+        "Personality dataset",
+        "Knowledge dataset",
+        "Retrieval-Augmented responses",
+        "3D avatar",
+        "Voice interaction",
+        "Conversation memory"
+      ],
+
+      "status": "Currently under development"
+    }
+  ],
+
+  "developer_note": {
+    "building_philosophy": "Every project I build teaches me something completely new. I intentionally choose projects that push me beyond my comfort zone rather than repeating technologies I already know.",
+
+    "strength": "I enjoy building long-term, feature-rich systems that solve real problems and tell complete stories.",
+
+    "challenge": "I sometimes spend too much time refining and expanding ideas because I enjoy exploring them deeply before considering them complete."
+  }
+}

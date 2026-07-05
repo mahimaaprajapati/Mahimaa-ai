@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mahimaa.AI</title>
+  <link rel="stylesheet" href="/src/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<div id="loading-screen">
+
+  <!-- Floating blobs -->
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+
+  <!-- Terminal -->
+  <div id="terminal">
+    <p id="terminal-text"></p>
+  </div>
+
+  <!-- Center content -->
+  <div class="loader-container">
+    <h1 class="title">Mahimaa AI</h1>
+
+    <div class="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <p id="progress-text">Loading 0%</p>
+
+    <button id="enter-btn">Enter My World</button>
+  </div>
+
+</div>
+
+
+<!-- Avatar Scene -->
+
+<div id="avatar-scene">
+  <canvas id="webgl"></canvas>
+</div>
+<div id="dialogueBox">
+  <p id="dialogueText"></p>
+</div>
+<div id="floating-labels">
+
+    <div class="label recruiter">
+
+        RECRUITER
+
+    </div>
+
+    <div class="label learner">
+
+        LEARNER
+
+    </div>
+
+    <div class="label developer">
+
+        FELLOW DEVELOPER
+
+    </div>
+
+    <div class="label stalker">
+
+        RANDOM STALKER
+
+    </div>
+
+</div>
+<div id="social-bar">
+
+    <a href="https://github.com/mahimaaprajapati" target="_blank">
+        <i class="fa-brands fa-github"></i>
+        
+    </a>
+
+    <a href="https://www.linkedin.com/in/mahimaa-prajapati" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+        
+    </a>
+
+    <a href="mailto:prajapatimahimaa@gmail.com">
+        <i class="fa-regular fa-envelope"></i>
+       
+    </a>
+
+    <a href="https://medium.com/@gloryinguidance" target="_blank">
+        <i class="fa-solid fa-book-open"></i>
+       
+    </a>
+
+</div>
+
+<!-- Main Script -->
+
+<script type="module" src="/src/main.ts"></script>
+
+</body>
+</html>

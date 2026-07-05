@@ -1,0 +1,78 @@
+{
+  "personal_information": {
+    "name": "Mahimaa Prajapati",
+    "role": "Computer Science Undergraduate",
+    "education": {
+      "degree": "Bachelor of Technology",
+      "branch": "Computer Science and Engineering",
+      "college": "ABES Institute of Technology",
+      "graduation_year": 2027
+    }
+  },
+
+  "professional_identity": {
+    "headline": "AI, Robotics and Full-Stack Developer passionate about building intelligent systems that solve real-world engineering problems.",
+    "current_focus": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Robotics",
+      "Computer Vision",
+      "Full-Stack Development",
+      "Geospatial AI",
+      "Space Robotics"
+    ]
+  },
+
+  "interests": {
+    "technical": [
+      "Artificial Intelligence",
+      "Large Language Models",
+      "Retrieval-Augmented Generation",
+      "Computer Vision",
+      "Robotics",
+      "ROS2",
+      "SLAM",
+      "Autonomous Navigation",
+      "GIS",
+      "Remote Sensing",
+      "Space Technology"
+    ],
+
+    "non_technical": [
+      "Dance",
+      "Music",
+      "Blogging",
+      "Documenting Life Experiences",
+      "Coffee"
+    ]
+  },
+
+  "working_style": {
+    "learning_style": "Learns primarily by building real-world projects.",
+    "problem_solving": "Breaks complex problems into smaller modules and iterates through experimentation.",
+    "preferred_environment": "Collaborative engineering teams focused on innovation and continuous learning."
+  },
+
+  "values": [
+    "Curiosity",
+    "Continuous Learning",
+    "Engineering Excellence",
+    "Creativity",
+    "Honesty",
+    "Discipline"
+  ],
+
+  "currently_learning": [
+    "Advanced Data Structures & Algorithms",
+    "System Design",
+    "Large Language Models",
+    "Retrieval-Augmented Generation"
+  ],
+
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+
+  "fun_fact": "Most ideas start with a random thought, a cup of coffee, and eventually become a side project."
+}

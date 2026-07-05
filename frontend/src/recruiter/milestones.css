@@ -1,0 +1,1267 @@
+/* ========================================= */
+/* GLOBAL */
+/* ========================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:#09090F;
+
+    color:white;
+
+    font-family:Inter,sans-serif;
+
+    overflow-x:hidden;
+
+}
+
+/* ========================================= */
+/* HERO */
+/* ========================================= */
+
+.hero{
+
+    padding:120px 20px 80px;
+
+    text-align:center;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.hero h1{
+
+    font-size:4.5rem;
+
+    font-weight:800;
+
+    margin-bottom:18px;
+
+}
+
+.hero p{
+
+    font-size:1.15rem;
+
+    color:#BDBDD5;
+
+    max-width:700px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+}
+
+/* ========================================= */
+/* TIMELINE */
+/* ========================================= */
+
+.timeline{
+
+    position:relative;
+
+    width:100%;
+
+    max-width:1400px;
+
+    margin:auto;
+
+    padding:60px 0 160px;
+
+}
+
+/* ========================================= */
+/* ROAD */
+/* ========================================= */
+
+.road{
+
+    position:absolute;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    top:0;
+
+    width:8px;
+
+    height:100%;
+
+    border-radius:50px;
+
+    background:linear-gradient(
+
+        #36205F,
+
+        #B57EFF,
+
+        #36205F
+
+    );
+
+    box-shadow:
+
+        0 0 25px rgba(181,126,255,.8),
+
+        0 0 80px rgba(181,126,255,.25);
+
+}
+
+/* ========================================= */
+/* MILESTONE */
+/* ========================================= */
+
+.milestone{
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+    width:100%;
+
+    margin:120px 0;
+
+}
+
+.left{
+
+    justify-content:flex-start;
+
+}
+
+.right{
+
+    justify-content:flex-end;
+
+}
+
+/* ========================================= */
+/* CHECKPOINT */
+/* ========================================= */
+
+.checkpoint{
+
+    position:absolute;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:28px;
+
+    height:28px;
+
+    border-radius:50%;
+
+    background:#D8C2FF;
+
+    box-shadow:
+
+        0 0 20px #B57EFF,
+
+        0 0 60px #7E4BFF;
+
+    z-index:5;
+
+}
+
+/* ========================================= */
+/* CARD */
+/* ========================================= */
+
+.card{
+
+    width:470px;
+
+    padding:32px;
+
+    border-radius:24px;
+
+    background:rgba(20,20,32,.65);
+
+    backdrop-filter:blur(14px);
+
+    border:1px solid rgba(180,150,255,.15);
+
+    box-shadow:
+
+        0 20px 50px rgba(0,0,0,.45);
+
+    transition:
+
+        transform .45s,
+
+        border-color .4s,
+
+        box-shadow .4s;
+
+    animation:float 5s ease-in-out infinite;
+
+}
+
+.left .card{
+
+    margin-left:80px;
+
+}
+
+.right .card{
+
+    margin-right:80px;
+
+}
+
+/* ========================================= */
+/* CARD HOVER */
+/* ========================================= */
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#B57EFF;
+
+    box-shadow:
+
+        0 20px 55px rgba(181,126,255,.25);
+
+}
+
+/* ========================================= */
+/* TYPOGRAPHY */
+/* ========================================= */
+
+.year{
+
+    color:#B57EFF;
+
+    font-size:.9rem;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    font-weight:700;
+
+}
+
+.card h2{
+
+    margin:15px 0;
+
+    font-size:2rem;
+
+}
+
+.card>p{
+
+    color:#D7D7E5;
+
+    line-height:1.8;
+
+}
+
+/* ========================================= */
+/* LEARNED */
+/* ========================================= */
+
+.learned{
+
+    margin-top:24px;
+
+    padding-top:18px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.learned strong{
+
+    color:#D8C2FF;
+
+    display:block;
+
+    margin-bottom:10px;
+
+}
+
+.learned p{
+
+    color:#BFBFD0;
+
+    line-height:1.7;
+
+}
+
+/* ========================================= */
+/* BADGE */
+/* ========================================= */
+
+.badge{
+
+    display:inline-block;
+
+    margin-top:22px;
+
+    padding:8px 18px;
+
+    border-radius:50px;
+
+    background:rgba(181,126,255,.18);
+
+    border:1px solid rgba(181,126,255,.4);
+
+    color:#E9DFFF;
+
+    font-size:.9rem;
+
+}
+
+/* ========================================= */
+/* FINAL */
+/* ========================================= */
+
+.future{
+
+    margin-top:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+.future span{
+
+    color:#D8C2FF;
+
+}
+
+/* ========================================= */
+/* PULSE */
+/* ========================================= */
+
+.pulse{
+
+    animation:pulse 2s infinite;
+
+}
+
+@keyframes pulse{
+
+    0%{
+
+        box-shadow:
+
+        0 0 20px #B57EFF;
+
+    }
+
+    50%{
+
+        box-shadow:
+
+        0 0 50px #D8C2FF,
+
+        0 0 90px #7E4BFF;
+
+    }
+
+    100%{
+
+        box-shadow:
+
+        0 0 20px #B57EFF;
+
+    }
+
+}
+
+/* ========================================= */
+/* FLOAT */
+/* ========================================= */
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-8px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ========================================= */
+/* SCROLL ANIMATION */
+/* ========================================= */
+
+.milestone{
+
+    opacity:0;
+
+    transform:translateY(80px);
+
+    transition:
+
+        opacity .8s,
+
+        transform .8s;
+
+}
+
+.milestone.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* ========================================= */
+/* STARS */
+/* ========================================= */
+
+#stars{
+
+    position:fixed;
+
+    inset:0;
+
+    overflow:hidden;
+
+    z-index:-1;
+
+}
+
+#stars span{
+
+    position:absolute;
+
+    width:4px;
+
+    height:4px;
+
+    border-radius:50%;
+
+    background:white;
+
+    opacity:.7;
+
+    animation:starFloat linear infinite;
+
+}
+
+#stars span:nth-child(1){left:5%;top:12%;animation-duration:12s;}
+#stars span:nth-child(2){left:18%;top:70%;animation-duration:16s;}
+#stars span:nth-child(3){left:33%;top:24%;animation-duration:10s;}
+#stars span:nth-child(4){left:47%;top:82%;animation-duration:18s;}
+#stars span:nth-child(5){left:61%;top:18%;animation-duration:14s;}
+#stars span:nth-child(6){left:73%;top:66%;animation-duration:15s;}
+#stars span:nth-child(7){left:86%;top:28%;animation-duration:11s;}
+#stars span:nth-child(8){left:92%;top:80%;animation-duration:17s;}
+#stars span:nth-child(9){left:25%;top:55%;animation-duration:14s;}
+#stars span:nth-child(10){left:56%;top:10%;animation-duration:18s;}
+#stars span:nth-child(11){left:12%;top:90%;animation-duration:12s;}
+#stars span:nth-child(12){left:78%;top:48%;animation-duration:16s;}
+#stars span:nth-child(13){left:42%;top:38%;animation-duration:15s;}
+#stars span:nth-child(14){left:67%;top:88%;animation-duration:13s;}
+#stars span:nth-child(15){left:95%;top:45%;animation-duration:17s;}
+
+@keyframes starFloat{
+
+    from{
+
+        transform:translateY(0);
+
+        opacity:.2;
+
+    }
+
+    to{
+
+        transform:translateY(-60px);
+
+        opacity:.8;
+
+    }
+
+}
+
+/* ========================================= */
+/* CURSOR GLOW */
+/* ========================================= */
+
+.cursor-glow{
+
+    position:fixed;
+
+    width:260px;
+
+    height:260px;
+
+    border-radius:50%;
+
+    pointer-events:none;
+
+    background:radial-gradient(
+
+        circle,
+
+        rgba(181,126,255,.18),
+
+        transparent 70%
+
+    );
+
+    filter:blur(35px);
+
+    transform:translate(-50%,-50%);
+
+    z-index:999;
+
+}
+
+/* ========================================= */
+/* BACK BUTTON */
+/* ========================================= */
+
+#back-btn{
+
+    position:fixed;
+
+    top:30px;
+
+    left:30px;
+
+    background:rgba(181,126,255,.12);
+
+    border:1px solid rgba(181,126,255,.35);
+
+    color:white;
+
+    padding:12px 24px;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    backdrop-filter:blur(12px);
+
+    transition:.3s;
+
+    z-index:100;
+
+}
+
+#back-btn:hover{
+
+    background:#B57EFF;
+
+    color:#111;
+
+}
+
+/* ========================================= */
+/* MOBILE */
+/* ========================================= */
+
+@media(max-width:900px){
+
+.road{
+
+    left:40px;
+
+}
+
+.left,
+.right{
+
+    justify-content:flex-start;
+
+}
+
+.card{
+
+    width:calc(100% - 110px);
+
+    margin-left:80px !important;
+
+    margin-right:0 !important;
+
+}
+
+.checkpoint{
+
+    left:40px;
+
+}
+
+.hero h1{
+
+    font-size:3rem;
+
+}
+
+}/* ========================================= */
+/* GLOBAL */
+/* ========================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:#09090F;
+
+    color:white;
+
+    font-family:Inter,sans-serif;
+
+    overflow-x:hidden;
+
+}
+
+/* ========================================= */
+/* HERO */
+/* ========================================= */
+
+.hero{
+
+    padding:120px 20px 80px;
+
+    text-align:center;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.hero h1{
+
+    font-size:4.5rem;
+
+    font-weight:800;
+
+    margin-bottom:18px;
+
+}
+
+.hero p{
+
+    font-size:1.15rem;
+
+    color:#BDBDD5;
+
+    max-width:700px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+}
+
+/* ========================================= */
+/* TIMELINE */
+/* ========================================= */
+
+.timeline{
+
+    position:relative;
+
+    width:100%;
+
+    max-width:1400px;
+
+    margin:auto;
+
+    padding:60px 0 160px;
+
+}
+
+/* ========================================= */
+/* ROAD */
+/* ========================================= */
+
+.road{
+
+    position:absolute;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    top:0;
+
+    width:8px;
+
+    height:100%;
+
+    border-radius:50px;
+
+    background:linear-gradient(
+
+        #36205F,
+
+        #B57EFF,
+
+        #36205F
+
+    );
+
+    box-shadow:
+
+        0 0 25px rgba(181,126,255,.8),
+
+        0 0 80px rgba(181,126,255,.25);
+
+}
+
+/* ========================================= */
+/* MILESTONE */
+/* ========================================= */
+
+.milestone{
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+    width:100%;
+
+    margin:120px 0;
+
+}
+
+.left{
+
+    justify-content:flex-start;
+
+}
+
+.right{
+
+    justify-content:flex-end;
+
+}
+
+/* ========================================= */
+/* CHECKPOINT */
+/* ========================================= */
+
+.checkpoint{
+
+    position:absolute;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:28px;
+
+    height:28px;
+
+    border-radius:50%;
+
+    background:#D8C2FF;
+
+    box-shadow:
+
+        0 0 20px #B57EFF,
+
+        0 0 60px #7E4BFF;
+
+    z-index:5;
+
+}
+
+/* ========================================= */
+/* CARD */
+/* ========================================= */
+
+.card{
+
+    width:470px;
+
+    padding:32px;
+
+    border-radius:24px;
+
+    background:rgba(20,20,32,.65);
+
+    backdrop-filter:blur(14px);
+
+    border:1px solid rgba(180,150,255,.15);
+
+    box-shadow:
+
+        0 20px 50px rgba(0,0,0,.45);
+
+    transition:
+
+        transform .45s,
+
+        border-color .4s,
+
+        box-shadow .4s;
+
+    animation:float 5s ease-in-out infinite;
+
+}
+
+.left .card{
+
+    margin-left:80px;
+
+}
+
+.right .card{
+
+    margin-right:80px;
+
+}
+
+/* ========================================= */
+/* CARD HOVER */
+/* ========================================= */
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#B57EFF;
+
+    box-shadow:
+
+        0 20px 55px rgba(181,126,255,.25);
+
+}
+
+/* ========================================= */
+/* TYPOGRAPHY */
+/* ========================================= */
+
+.year{
+
+    color:#B57EFF;
+
+    font-size:.9rem;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    font-weight:700;
+
+}
+
+.card h2{
+
+    margin:15px 0;
+
+    font-size:2rem;
+
+}
+
+.card>p{
+
+    color:#D7D7E5;
+
+    line-height:1.8;
+
+}
+
+/* ========================================= */
+/* LEARNED */
+/* ========================================= */
+
+.learned{
+
+    margin-top:24px;
+
+    padding-top:18px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.learned strong{
+
+    color:#D8C2FF;
+
+    display:block;
+
+    margin-bottom:10px;
+
+}
+
+.learned p{
+
+    color:#BFBFD0;
+
+    line-height:1.7;
+
+}
+
+/* ========================================= */
+/* BADGE */
+/* ========================================= */
+
+.badge{
+
+    display:inline-block;
+
+    margin-top:22px;
+
+    padding:8px 18px;
+
+    border-radius:50px;
+
+    background:rgba(181,126,255,.18);
+
+    border:1px solid rgba(181,126,255,.4);
+
+    color:#E9DFFF;
+
+    font-size:.9rem;
+
+}
+
+/* ========================================= */
+/* FINAL */
+/* ========================================= */
+
+.future{
+
+    margin-top:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+.future span{
+
+    color:#D8C2FF;
+
+}
+
+/* ========================================= */
+/* PULSE */
+/* ========================================= */
+
+.pulse{
+
+    animation:pulse 2s infinite;
+
+}
+
+@keyframes pulse{
+
+    0%{
+
+        box-shadow:
+
+        0 0 20px #B57EFF;
+
+    }
+
+    50%{
+
+        box-shadow:
+
+        0 0 50px #D8C2FF,
+
+        0 0 90px #7E4BFF;
+
+    }
+
+    100%{
+
+        box-shadow:
+
+        0 0 20px #B57EFF;
+
+    }
+
+}
+
+/* ========================================= */
+/* FLOAT */
+/* ========================================= */
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-8px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ========================================= */
+/* SCROLL ANIMATION */
+/* ========================================= */
+
+.milestone{
+
+    opacity:0;
+
+    transform:translateY(80px);
+
+    transition:
+
+        opacity .8s,
+
+        transform .8s;
+
+}
+
+.milestone.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* ========================================= */
+/* STARS */
+/* ========================================= */
+
+#stars{
+
+    position:fixed;
+
+    inset:0;
+
+    overflow:hidden;
+
+    z-index:-1;
+
+}
+
+#stars span{
+
+    position:absolute;
+
+    width:4px;
+
+    height:4px;
+
+    border-radius:50%;
+
+    background:white;
+
+    opacity:.7;
+
+    animation:starFloat linear infinite;
+
+}
+
+#stars span:nth-child(1){left:5%;top:12%;animation-duration:12s;}
+#stars span:nth-child(2){left:18%;top:70%;animation-duration:16s;}
+#stars span:nth-child(3){left:33%;top:24%;animation-duration:10s;}
+#stars span:nth-child(4){left:47%;top:82%;animation-duration:18s;}
+#stars span:nth-child(5){left:61%;top:18%;animation-duration:14s;}
+#stars span:nth-child(6){left:73%;top:66%;animation-duration:15s;}
+#stars span:nth-child(7){left:86%;top:28%;animation-duration:11s;}
+#stars span:nth-child(8){left:92%;top:80%;animation-duration:17s;}
+#stars span:nth-child(9){left:25%;top:55%;animation-duration:14s;}
+#stars span:nth-child(10){left:56%;top:10%;animation-duration:18s;}
+#stars span:nth-child(11){left:12%;top:90%;animation-duration:12s;}
+#stars span:nth-child(12){left:78%;top:48%;animation-duration:16s;}
+#stars span:nth-child(13){left:42%;top:38%;animation-duration:15s;}
+#stars span:nth-child(14){left:67%;top:88%;animation-duration:13s;}
+#stars span:nth-child(15){left:95%;top:45%;animation-duration:17s;}
+
+@keyframes starFloat{
+
+    from{
+
+        transform:translateY(0);
+
+        opacity:.2;
+
+    }
+
+    to{
+
+        transform:translateY(-60px);
+
+        opacity:.8;
+
+    }
+
+}
+
+/* ========================================= */
+/* CURSOR GLOW */
+/* ========================================= */
+
+.cursor-glow{
+
+    position:fixed;
+
+    width:260px;
+
+    height:260px;
+
+    border-radius:50%;
+
+    pointer-events:none;
+
+    background:radial-gradient(
+
+        circle,
+
+        rgba(181,126,255,.18),
+
+        transparent 70%
+
+    );
+
+    filter:blur(35px);
+
+    transform:translate(-50%,-50%);
+
+    z-index:999;
+
+}
+
+/* ========================================= */
+/* BACK BUTTON */
+/* ========================================= */
+
+#back-btn{
+
+    position:fixed;
+
+    top:30px;
+
+    left:30px;
+
+    background:rgba(181,126,255,.12);
+
+    border:1px solid rgba(181,126,255,.35);
+
+    color:white;
+
+    padding:12px 24px;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    backdrop-filter:blur(12px);
+
+    transition:.3s;
+
+    z-index:100;
+
+}
+
+#back-btn:hover{
+
+    background:#B57EFF;
+
+    color:#111;
+
+}
+
+/* ========================================= */
+/* MOBILE */
+/* ========================================= */
+
+@media(max-width:900px){
+
+.road{
+
+    left:40px;
+
+}
+
+.left,
+.right{
+
+    justify-content:flex-start;
+
+}
+
+.card{
+
+    width:calc(100% - 110px);
+
+    margin-left:80px !important;
+
+    margin-right:0 !important;
+
+}
+
+.checkpoint{
+
+    left:40px;
+
+}
+
+.hero h1{
+
+    font-size:3rem;
+
+}
+
+}

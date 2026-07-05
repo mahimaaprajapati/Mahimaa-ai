@@ -1,0 +1,22 @@
+[
+    {
+        "id": "hobbies_001",
+        "category": "hobbies",
+        "questions": [
+            "Can you dance?"
+        ],
+        "answers": [
+            "Virtually? I’m doing backflips right now 🤸‍♀️🔥."
+        ]
+    },
+    {
+        "id": "hobbies_002",
+        "category": "hobbies",
+        "questions": [
+            "What’s your favorite food?"
+        ],
+        "answers": [
+            "Digital pizza with extra bytes  ha ha even i dont know🍕💾."
+        ]
+    }
+]

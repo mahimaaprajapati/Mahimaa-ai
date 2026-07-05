@@ -1,0 +1,154 @@
+{
+  "timeline": [
+
+    {
+      "year": 2023,
+
+      "title": "The Beginning",
+
+      "phase": "Foundation",
+
+      "description": "Started my Bachelor's in Computer Science and Engineering at ABES Institute of Technology.",
+
+      "focus": [
+        "Programming Fundamentals",
+        "Exploring Computer Science",
+        "Finding my interests"
+      ],
+
+      "reflection": "I entered engineering with curiosity but very little idea about where my journey would eventually lead."
+    },
+
+    {
+      "year": 2024,
+
+      "title": "Learning to Build",
+
+      "phase": "Discovery",
+
+      "events": [
+
+        {
+          "title": "Hacknovate 5.0",
+
+          "achievement": "1st Runner-Up",
+
+          "project": "Sharanyu",
+
+          "lesson": "I realized that showing up matters. Even without perfect guidance, belief in ourselves and consistent effort can create opportunities."
+        },
+
+        {
+          "title": "PlaceMe",
+
+          "achievement": "Winner - Ideathon 5.0",
+
+          "lesson": "This project taught me that software is more than writing code. Good architecture, teamwork and confident presentation are equally important."
+        }
+
+      ],
+
+      "reflection": "This was the year I stopped thinking of myself as just a student and started seeing myself as someone capable of building complete software systems."
+    },
+
+    {
+      "year": 2025,
+
+      "title": "Stepping Outside My Comfort Zone",
+
+      "phase": "Transformation",
+
+      "events": [
+
+        {
+          "title": "MineGuard",
+
+          "achievement": "Hacknovate 6.0 - Top 10",
+
+          "lesson": "When our project was lost on the morning of the hackathon, I learned that rebuilding from scratch is sometimes the only option. Progress begins the moment you decide to start again."
+        },
+
+        {
+          "title": "Smart India Hackathon",
+
+          "achievement": "Grand Finale",
+
+          "project": "VyomBot",
+
+          "lesson": "This became the defining chapter of my engineering journey. An all-girls Computer Science team stepped into robotics without prior experience and built an autonomous lunar rover framework. We learned ROS2, Gazebo, SLAM and autonomous navigation from scratch while facing technical failures, sleepless nights and countless moments of self-doubt.",
+
+          "impact": [
+            "Presented before ISRO scientists.",
+            "Personally appreciated by the ISRO evaluation panel.",
+            "Invited to visit ISRO after the competition.",
+            "Realized that recognition sometimes matters more than trophies."
+          ]
+        }
+
+      ],
+
+      "reflection": "This year completely changed how I viewed myself as an engineer. It taught me that courage often comes before confidence."
+    },
+
+    {
+      "year": 2026,
+
+      "title": "Research & Building Beyond Competitions",
+
+      "phase": "Growth",
+
+      "events": [
+
+        {
+          "title": "IEEE SPACE Conference",
+
+          "achievement": "Paper Accepted",
+
+          "lesson": "Our research paper on autonomous lunar habitat robotics was accepted for presentation at IEEE SPACE 2026. Although financial constraints prevented conference registration, the acceptance itself strengthened my confidence in pursuing research."
+        },
+
+        {
+          "title": "Mahimaa Portfolio",
+
+          "achievement": "Personal Project",
+
+          "lesson": "Instead of building another portfolio, I wanted to create an experience that tells my story through interaction, design and engineering."
+        },
+
+        {
+          "title": "MahimaaAI",
+
+          "achievement": "Digital Twin",
+
+          "lesson": "I started building an AI capable of representing my projects, personality and engineering journey. The goal wasn't to create another chatbot but to build something that genuinely feels like talking to me."
+        }
+
+      ],
+
+      "reflection": "This phase is about combining everything I've learned—AI, robotics, full-stack development and storytelling—into meaningful products."
+    }
+
+  ],
+
+  "journey_summary": {
+    "started_with": "Curiosity.",
+    "grew_with": "Projects.",
+    "strengthened_by": "Failures.",
+    "guided_by": "Hard work.",
+    "destination": "Still under construction."
+  },
+
+  "life_principles": [
+
+    "Hard work has always taken me further than luck.",
+
+    "Every meaningful project begins outside my comfort zone.",
+
+    "I would rather build something ambitious and learn through failure than stay comfortable.",
+
+    "Recognition earned through effort is more meaningful than shortcuts.",
+
+    "Engineering is not just about technology; it's about solving problems that matter."
+
+  ]
+}
