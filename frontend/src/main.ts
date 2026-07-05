@@ -431,9 +431,6 @@ function playIntroAnimation() {
   }
 
  let t = 0;
-const leftUpperArm = avatar.getObjectByName("LeftArm") as THREE.Object3D | null;
-const leftForeArm = avatar.getObjectByName("LeftForeArm") as THREE.Object3D | null;
-const leftHand = avatar.getObjectByName("LeftHand") as THREE.Object3D | null;
 const upperArm = avatar.getObjectByName("RightArm") as THREE.Object3D | null;
 const foreArm = avatar.getObjectByName("RightForeArm") as THREE.Object3D | null;
 const hand = avatar.getObjectByName("RightHand") as THREE.Object3D | null;
@@ -785,7 +782,7 @@ avatar.scale.set(1.8, 1.8, 1.8);
 
 // 🔥 AUTO PLACE FEET ON GROUND (BEST METHOD)
 const box = new THREE.Box3().setFromObject(avatar);
-const height = box.max.y - box.min.y;
+
 
 // move so feet touch stage
 avatar.position.y = -box.min.y;

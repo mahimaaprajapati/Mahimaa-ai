@@ -23,14 +23,6 @@ const clock = document.getElementById("clock") as HTMLSpanElement;
 
 const API = "http://127.0.0.1:5000/api/file";
 
-
-// ================================
-// Current File
-// ================================
-
-let currentFile = "about";
-
-
 // ================================
 // Load JSON
 // ================================
@@ -38,9 +30,6 @@ let currentFile = "about";
 async function loadFile(file: string) {
 
     try {
-
-        currentFile = file;
-
         const response = await fetch(`${API}/${file}`);
 
         if (!response.ok) {

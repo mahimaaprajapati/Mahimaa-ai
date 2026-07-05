@@ -135,7 +135,9 @@ const cards = document.querySelectorAll(
 
 cards.forEach(card=>{
 
-card.addEventListener("mousemove",(e)=>{
+card.addEventListener("mousemove", (event) => {
+
+const e = event as MouseEvent;
 
 const target = card as HTMLElement;
 
