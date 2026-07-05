@@ -385,7 +385,7 @@ document
     );
 
 });
-const BACKEND_URL = "http://127.0.0.1:5000/chat";
+const BACKEND_URL = "https://mahimaa-ai.onrender.com/chat";
 
 async function sendMessage() {
 
