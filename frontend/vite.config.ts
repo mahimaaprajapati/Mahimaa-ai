@@ -18,6 +18,7 @@ export default defineConfig({
         projects: resolve(__dirname, "projects.html"),
         skills: resolve(__dirname, "skills.html"),
         milestones: resolve(__dirname, "milestones.html"),
+        mahimaaAI: resolve(__dirname, "mahimaaAI/mahimaaAI.html"),
       },
     },
   },
