@@ -21,7 +21,7 @@ const clock = document.getElementById("clock") as HTMLSpanElement;
 // API
 // ================================
 
-const API = "http://127.0.0.1:5000/api/file";
+const API = "https://mahimaa-ai.onrender.com/api/file";
 
 // ================================
 // Load JSON
