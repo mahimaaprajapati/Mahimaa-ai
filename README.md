@@ -1,124 +1,158 @@
 # 🌌 Mahimaa Portfolio
 
-> **An immersive, story-driven portfolio that transforms a traditional resume into an interactive digital experience.**
+> **A cinematic, story-driven developer portfolio that transforms a traditional resume into an interactive digital experience.**
 
-![Portfolio Banner](frontend/public/icons/portfolio.png)
+<p align="center">
+  <img src="frontend/public/icons/portfolio.png" width="900" alt="Mahimaa Portfolio Banner">
+</p>
 
-## Overview
+<p align="center">
 
-Mahimaa Portfolio is an interactive developer portfolio designed to go beyond static webpages and conventional resumes.
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask)
+![Google%20Gemini-AI-8E75FF?style=for-the-badge)
 
-Instead of presenting projects as cards, the portfolio takes visitors through an immersive journey where they can explore projects, engineering milestones, research, and even interact with **MahimaaAI**—an AI-powered digital twin capable of answering questions about my work.
-
-The goal is simple:
-
-> **Help visitors experience my engineering journey instead of just reading about it.**
-
----
-
-## ✨ Experience
-
-The portfolio is divided into multiple story-driven paths, each offering a unique perspective.
-
-### 👩‍💻 Recruiter Journey
-
-A curated experience for recruiters to quickly explore:
-
-- Featured Projects
-- Engineering Milestones
-- Technical Skills
-- Research
-- Resume
-- Contact
+</p>
 
 ---
 
-### 💻 Developer Workspace
+# ✨ Why This Portfolio?
 
-A VS Code-inspired workspace where visitors can explore:
+Most portfolios answer one question:
 
-- Projects
-- Skills
-- Research
-- Timeline
-- Achievements
-- Experience
+> **"What has this person built?"**
 
-through interactive developer-inspired interfaces.
+This portfolio attempts to answer something deeper:
+
+> **"Who is the engineer behind those projects?"**
+
+Rather than navigating static webpages, visitors experience multiple story-driven journeys designed for different audiences—whether they are recruiters, developers, fellow learners, or simply curious visitors.
+
+The objective isn't just to showcase projects.
+
+It's to create an experience people remember.
 
 ---
 
-### 🤖 MahimaaAI
+# 🎬 Portfolio Experience
 
-An AI-powered digital twin built using Retrieval-Augmented Generation (RAG).
+Instead of presenting everything on a single webpage, the portfolio offers multiple immersive journeys.
+
+---
+
+## 🎥 Recruiter Journey
+
+Designed for recruiters who want a concise overview of my engineering work.
+
+This experience highlights:
+
+- 🚀 Featured Projects
+- 🏆 Engineering Milestones
+- 📄 Research
+- ⚙️ Technical Skills
+- 📑 Resume
+- 📬 Contact
+
+Instead of a traditional timeline, milestones are presented as an interactive engineering journey.
+
+---
+
+## 💻 Developer Workspace
+
+Inspired by modern developer environments.
+
+Visitors explore my work through a VS Code–inspired workspace featuring interactive datasets such as:
+
+```text
+projects.json
+skills.json
+research.json
+timeline.json
+achievements.json
+experience.json
+```
+
+The goal is to let visitors explore my portfolio the same way developers explore a codebase.
+
+---
+
+## 📚 Learner
+
+A space dedicated to curiosity rather than achievements.
+
+It explores:
+
+- Artificial Intelligence
+- Robotics
+- Computer Science
+- System Design
+- Research Papers
+- Books
+- Learning Roadmap
+- Lessons from Projects & Hackathons
+
+Because learning never stops.
+
+---
+
+## 🌙 Stalker Mode
+
+A cinematic introduction for visitors who simply want to know the person behind the projects.
+
+This journey explores my interests, personality, values, motivations, and engineering philosophy before leading into MahimaaAI.
+
+---
+
+## 🤖 MahimaaAI
+
+MahimaaAI is an AI-powered digital twin trained exclusively on a curated knowledge base about my projects, research, experiences, and interests.
 
 Visitors can ask questions about:
 
 - Projects
-- Technologies
 - Research
+- Technologies
 - Hackathons
 - Skills
 - Engineering Journey
+- Personal Interests
 
-MahimaaAI answers using a curated knowledge base instead of generic AI responses.
-
----
-
-### 🌙 Storytelling
-
-Rather than displaying achievements as isolated events, the portfolio presents them as milestones along an engineering journey.
-
-The objective is to create a memorable experience while maintaining technical depth.
+Instead of generating generic responses, MahimaaAI retrieves relevant context from structured datasets before generating answers, making conversations more grounded and personalized.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-- Interactive 3D Avatar (Ready Player Me)
-- Three.js powered experience
-- AI-powered digital twin
-- Context-aware conversations
-- Story-driven navigation
-- Animated UI & transitions
-- Developer-inspired workspace
-- Responsive design
-- Immersive visual effects
-
----
-
-## 🛠 Tech Stack
-
-### Frontend
-
-- HTML5
-- CSS3
-- TypeScript
-- Three.js
-- Vite
-
-### Backend
-
-- Python
-- Flask
-- Google Gemini API
-
-### AI
-
-- Retrieval-Augmented Generation (RAG)
-- Context-aware Knowledge Base
-- Intent Routing
-- Prompt Engineering
-
-### 3D
-
-- Ready Player Me
-- GLTF
-- FBX Animations
+- 🌌 Story-driven navigation
+- 🤖 AI-powered digital twin
+- 🧠 Retrieval-Augmented Generation (RAG)
+- 🎭 Interactive 3D Ready Player Me avatar
+- 💬 Context-aware conversations
+- ✨ Typewriter chat experience
+- 🌠 Three.js powered interactions
+- 💻 VS Code-inspired developer workspace
+- 🎬 Cinematic animations & transitions
+- 📱 Responsive design
+- ⚡ Modern UI & visual effects
 
 ---
 
-## 📂 Project Structure
+# 🛠 Tech Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| **Frontend** | HTML5, CSS3, TypeScript, Vite |
+| **3D** | Three.js, GLTF, FBX Animations, Ready Player Me |
+| **Backend** | Python, Flask |
+| **AI** | Google Gemini API, Prompt Engineering, Retrieval-Augmented Generation |
+| **Data** | Structured JSON Knowledge Base |
+
+---
+
+# 📂 Project Structure
 
 ```text
 frontend/
@@ -129,55 +163,68 @@ frontend/
 ├── learner/
 ├── stalker/
 ├── mahimaaAI/
-│
 └── assets/
 
 backend/
 │
 ├── dataset/
-├── personality/
-├── knowledge/
+│   ├── knowledge/
+│   └── personality/
+│
 ├── brain/
 ├── retriever.py
 ├── chat.py
-└── app.py
+├── app.py
+└── prompt.py
 ```
 
 ---
 
-## 🧠 MahimaaAI Architecture
+# 🧠 MahimaaAI Architecture
 
 ```text
-User
-   │
-   ▼
-Frontend Chat
-   │
-   ▼
-Flask API
-   │
-   ▼
-Retriever
-   │
-   ▼
-Relevant Knowledge
-   │
-   ▼
-Gemini
-   │
-   ▼
-Response
-   │
-   ▼
-MahimaaAI
+               User
+                 │
+                 ▼
+      Interactive Frontend
+                 │
+                 ▼
+            Flask API
+                 │
+                 ▼
+      Intent Classification
+                 │
+                 ▼
+     Knowledge Retrieval (RAG)
+                 │
+                 ▼
+       Relevant Context Builder
+                 │
+                 ▼
+        Google Gemini API
+                 │
+                 ▼
+          Contextual Response
+                 │
+                 ▼
+             MahimaaAI
 ```
 
 ---
 
+# 💡 Inspiration
 
-## 🎯 Purpose
+The initial idea of organizing visitors into different personas—**Recruiter**, **Developer**, **Learner**, and **Stalker**—was inspired by the creative portfolio concept developed by **Suman Samala**.
 
-This project was created to explore the intersection of:
+While that navigation concept served as the starting point, this project evolved into an independent implementation featuring its own storytelling approach, AI-powered digital twin, Three.js experiences, backend architecture, curated datasets, immersive UI, and interactive engineering workflows.
+
+Special thanks for inspiring me to think differently about what a portfolio can be.
+
+---
+
+# 🎯 Purpose
+
+This project explores the intersection of:
 
 - Artificial Intelligence
 - Human–Computer Interaction
@@ -189,28 +236,39 @@ Rather than treating a portfolio as a collection of webpages, this project exper
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Roadmap
 
-- Voice Conversations
-- Facial Expressions
-- Lip Sync
-- Emotion-aware Responses
-- Camera Interactions
-- Advanced Avatar Behaviors
-- Additional Interactive Experiences
-
----
-
-## 👩‍💻 About Me
-
-I'm **Mahimaa Prajapati**, a Computer Science undergraduate passionate about building intelligent systems at the intersection of AI, Robotics, Full-Stack Development, and Geospatial Intelligence.
-
-I enjoy creating projects that solve meaningful engineering problems while continuously exploring new technologies through hands-on learning.
+- 🎤 Voice Conversations
+- 😊 Facial Expressions
+- 👄 Lip Synchronization
+- 🎭 Emotion-aware Responses
+- 👀 Eye Tracking
+- 🎙 Voice Input
+- 🌍 Multi-language Support
+- 🚀 More Interactive Experiences
 
 ---
 
-## ⭐ If you enjoyed this project
+# 👩‍💻 About Me
 
-If you found this project interesting, consider giving it a ⭐ on GitHub.
+I'm **Mahimaa Prajapati**, a Computer Science undergraduate passionate about building intelligent systems at the intersection of **Artificial Intelligence, Robotics, Full-Stack Development, and Geospatial Intelligence**.
 
-It helps others discover the project and motivates further improvements.
+I enjoy solving meaningful engineering problems through hands-on projects while continuously exploring new technologies and challenging myself beyond my comfort zone.
+
+---
+
+# 📸 Preview
+
+> Screenshots and walkthrough GIFs will be added after deployment.
+
+---
+
+# ⭐ Support
+
+If you enjoyed exploring this project, consider giving it a **⭐ Star** on GitHub.
+
+It helps others discover the project and motivates future improvements.
+
+---
+
+> *"Every milestone behind me was once a goal ahead of me."*
