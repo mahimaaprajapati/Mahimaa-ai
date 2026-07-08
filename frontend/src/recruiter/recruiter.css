@@ -106,7 +106,7 @@ body{
 
     width:100%;
 
-    height:78vh;
+    height:72vh;
 
     overflow:hidden;
 
@@ -170,11 +170,11 @@ body{
 
     position:absolute;
 
-    left:70px;
+    left:60px;
 
-    bottom:90px;
+    bottom:70px;
 
-    width: 980px;
+    width: 900px;
 
     z-index:5;
 
@@ -185,7 +185,7 @@ body{
 
 .hero h1{
 
-    font-size:3.5rem;
+    font-size:3rem;
 
     font-weight:800;
 
@@ -200,7 +200,7 @@ body{
 
 .hero h2{
 
-    font-size:1.5rem;
+    font-size:1.3rem;
 
     font-weight:500;
 
@@ -219,10 +219,10 @@ body{
 
     max-width:1180px;
 
-    font-size:1.08rem;
+    font-size:1rem;
     font-weight:600;
 
-    line-height:1.85;
+    line-height:1.7;
 
     color:#D8D8D8;
 
@@ -246,7 +246,7 @@ body{
 
 .buttons button{
 
-    padding:14px 28px;
+    padding:12px 24px;
 
     border:none;
 
@@ -254,7 +254,7 @@ body{
 
     cursor:pointer;
 
-    font-size:17px;
+    font-size:16px;
 
     font-weight:600;
 
@@ -312,14 +312,14 @@ color:#2C2144;
 
 .explore-section{
 
-    padding:70px 60px 100px;
+    padding:60px 55px 80px;
 
     background:#141118;
 
 }
 .explore-section h2{
 
-    font-size:34px;
+    font-size:30px;
 
     font-weight:700;
 
@@ -364,9 +364,9 @@ color:#2C2144;
     position:relative;
 
     min-width:320px;
-    width:320px;
+    width:290px;
 
-    height:190px;
+    height:170px;
 
     flex-shrink:0;
 
@@ -468,7 +468,7 @@ color:#2C2144;
 
     color:#FFFFFF;
 
-    font-size:24px;
+    font-size:21px;
 
     font-weight:700;
 

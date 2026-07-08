@@ -129,7 +129,7 @@ const camera = new THREE.PerspectiveCamera(
 );
 
 // ✅ PERFECT START VIEW
-camera.position.set(0, 1.6, 5.5);
+camera.position.set(0, 1.6, 6.3);
 camera.lookAt(0, 1.2, 0);
 // circle
 const stageGeometry = new THREE.CircleGeometry(2, 64);
