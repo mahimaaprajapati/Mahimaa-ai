@@ -13,7 +13,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask)
-![Google%20Gemini-AI-8E75FF?style=for-the-badge)
+
 
 </p>
 
@@ -214,7 +214,7 @@ backend/
 
 # 💡 Inspiration
 
-The initial idea of organizing visitors into different personas—**Recruiter**, **Developer**, **Learner**, and **Stalker**—was inspired by the creative portfolio concept developed by **Suman Samala**.
+The initial idea of organizing visitors into different personas—**Recruiter**, **Developer**, **Learner**, and **Stalker**—was inspired by the creative portfolio concept developed by **Sumanth Samala**.
 
 While that navigation concept served as the starting point, this project evolved into an independent implementation featuring its own storytelling approach, AI-powered digital twin, Three.js experiences, backend architecture, curated datasets, immersive UI, and interactive engineering workflows.
 
@@ -238,14 +238,14 @@ Rather than treating a portfolio as a collection of webpages, this project exper
 
 # 🔮 Roadmap
 
-- 🎤 Voice Conversations
-- 😊 Facial Expressions
-- 👄 Lip Synchronization
-- 🎭 Emotion-aware Responses
-- 👀 Eye Tracking
-- 🎙 Voice Input
-- 🌍 Multi-language Support
-- 🚀 More Interactive Experiences
+- Voice Conversations
+- Facial Expressions
+- Lip Synchronization
+- Emotion-aware Responses
+- Eye Tracking
+- Voice Input
+- Multi-language Support
+- More Interactive Experiences
 
 ---
 
@@ -254,12 +254,6 @@ Rather than treating a portfolio as a collection of webpages, this project exper
 I'm **Mahimaa Prajapati**, a Computer Science undergraduate passionate about building intelligent systems at the intersection of **Artificial Intelligence, Robotics, Full-Stack Development, and Geospatial Intelligence**.
 
 I enjoy solving meaningful engineering problems through hands-on projects while continuously exploring new technologies and challenging myself beyond my comfort zone.
-
----
-
-# 📸 Preview
-
-> Screenshots and walkthrough GIFs will be added after deployment.
 
 ---
 
