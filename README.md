@@ -2,7 +2,7 @@
 
 > **An immersive, story-driven portfolio that transforms a traditional resume into an interactive digital experience.**
 
-![Portfolio Banner](icons/portfolio.png)
+![Portfolio Banner](frontend/public/icons/portfolio.png)
 
 ## Overview
 
