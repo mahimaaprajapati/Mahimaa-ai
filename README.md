@@ -174,11 +174,6 @@ MahimaaAI
 
 ---
 
-## 📸 Preview
-
-> Screenshots and demo GIFs will be added soon.
-
----
 
 ## 🎯 Purpose
 
@@ -211,16 +206,6 @@ Rather than treating a portfolio as a collection of webpages, this project exper
 I'm **Mahimaa Prajapati**, a Computer Science undergraduate passionate about building intelligent systems at the intersection of AI, Robotics, Full-Stack Development, and Geospatial Intelligence.
 
 I enjoy creating projects that solve meaningful engineering problems while continuously exploring new technologies through hands-on learning.
-
----
-
-## 🤝 Connect
-
-- LinkedIn
-- GitHub
-- Portfolio
-
-(Links)
 
 ---
 
